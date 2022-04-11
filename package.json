@@ -1,0 +1,12 @@
+{
+  "name": "redemulheres",
+  "version": "1.0.0",
+  "description": "Integrativa 2022 - Projeto para Rede Feminina de Combate ao Câncer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
