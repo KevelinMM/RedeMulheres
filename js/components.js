@@ -4,10 +4,10 @@ class Header extends HTMLElement {
 
 
               <!-- Navigation-->
-              <nav class="navbar bg-secondary fixed-top" id="mainNav">
+              <nav class="navbar bg-rede2 fixed-top" id="mainNav">
                   <div class="container">
                       <a class="navbar-brand" href="#page-top">REDE FEMININA DE COMBATE AO CÂNCER</a>
-                      <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                      <button class="navbar-toggler text-uppercase font-weight-bold bg-rede text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                           Menu
                           <i class="fas fa-bars"></i>
                       </button>
@@ -25,7 +25,7 @@ class Header extends HTMLElement {
               </nav>
 
               <!-- Masthead-->
-              <header class="masthead bg-primary text-white text-center">
+              <header class="masthead bg-rede text-white text-center">
                   <div class="container d-flex align-items-center flex-column">
                       <!-- Masthead Avatar Image-->
                       <img class="masthead-avatar mb-5" src="../assets/img/portfolio/rede.png" alt="Logo Rede Feminina de Combate ao Câncer de Fraiburgo " />
@@ -52,7 +52,7 @@ class Header extends HTMLElement {
           this.innerHTML = `	 
           
           <!-- Footer-->
-          <footer class="footer text-center">
+          <footer class="footer bg-rede2 text-center">
               <div class="container">
                   <div class="row">
                       <!-- Footer Location-->
