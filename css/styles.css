@@ -76,6 +76,8 @@
   }
 }
 
+
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -88,6 +90,8 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+
+
 
 hr {
   margin: 1rem 0;
@@ -627,6 +631,7 @@ progress {
   color: #6c757d;
 }
 
+
 .container,
 .container-fluid,
 .container-xxl,
@@ -639,6 +644,7 @@ progress {
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
   margin-left: auto;
+  
 }
 
 @media (min-width: 576px) {
