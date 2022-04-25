@@ -58,7 +58,8 @@ class Header extends HTMLElement {
                       <div class="col-lg-4 mb-5 mb-lg-0">
                           <h4 class="text-uppercase mb-4">Localização</h4>
                           <p class="lead mb-0">
-                          Av. Santa Catarina, n. 131 <br> Bela Vista (SC)
+                          Av. Santa Catarina, n. 131 <br> Bela Vista <br>
+                          Fraiburgo (SC), Brasil
                               
                           </p>
                       </div>
