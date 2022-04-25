@@ -82,22 +82,26 @@
                     </p>         
                   </div>
                 <form action="https://formsubmit.co/thiagosartorel@uniplac.net" method="POST" enctype="multipart/form-data"> <!-- email da Rede Feminina-->
-                    <div class="form-group">
+                  <div class="form-group">
+                    <label for="exampleFormControlInput1">Nome Completo:</label> 
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Seu nome" name="nome" required> <br>
+                  </div>
+                  <div class="form-group">
                       <label for="exampleFormControlInput1">Seu melhor Email:</label> 
-                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com" required> <br>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com" name="email" required> <br>
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlInput1">Número para contato:</label> 
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="(DDD) 99999-9999" required> <br>
+                        <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="(DDD) 99999-9999" name="numero" required> <br>
                       </div>
                       <div class="form-group">
                         <label for="exampleFormControlInput1">Informe sua idade:</label> 
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Idade" required> <br>
+                        <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Idade" name="idade" required> <br>
                       </div>
               
                     <div class="form-group">
                       <label for="exampleFormControlSelect2">Escolha a área de sua preferência (opcional): </label>
-                      <select multiple class="form-control" id="exampleFormControlSelect2"> 
+                      <select multiple class="form-control" id="exampleFormControlSelect2" name = "area"> 
                         <option>1</option>
                         <option>2</option>
                         <option>3</option>
@@ -107,9 +111,10 @@
                     </div>
                     <div class="form-group">
                       <label for="exampleFormControlTextarea1">Livre para comentários, ideias ou sugestões!</label> 
-                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name ="texto" placeholder="Seu comentário"></textarea>
                     </div> <br>
-                    <button type="button" class="btn btn-outline-secondary">Enviar</button> 
+                    <input type="hidden" name="_captcha" value="false">
+                    <button type="submit" class="btn btn-outline-secondary">Enviar</button> 
                   </form>
                 </div>
             </section>
