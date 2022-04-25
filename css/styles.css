@@ -11513,6 +11513,17 @@ html {
   }
 }
 
+.input-copia{
+  text-decoration: none;
+  border: none;
+}
+
+.input-copia:focus{
+  text-decoration: none;
+  border: 0 none;
+  outline: 0;
+}
+
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;

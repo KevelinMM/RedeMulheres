@@ -24,7 +24,8 @@
                     <h1 class="page-section-heading text-center text-uppercase text-secondary mb-0 fs-1">FAÇA UMA DOAÇÃO</h1> <br><br>
                     <div class="row">
                         <div class="col-sm-6">
-                          <div class="card">
+                          <div class="card" style="height:400px">
+                            <img src="../assets/TED.png" class="card-img-top" alt="..." >
                             <div class="card-body">
                               <h5 class="card-title">Dados para Transferência</h5>
                               <p class="card-text"> Banco do Brasil <br> Agência 1387-0 <br> Conta Corrente 16802-5</p>
@@ -32,11 +33,12 @@
                           </div>
                         </div>
                         <div class="col-sm-6">
-                          <div class="card">
+                          <div class="card" style="height:400px">
+                            <img src="../assets/PIX.png" class="card-img-top" alt="...">
                             <div class="card-body">
                               <h5 class="card-title">Dados para PIX</h5> 
-                              <p class="card-text">CNPJ 10.321.902/0001-83</p>
-                              <button type="button" class="btn btn-outline-secondary">Copiar</button>
+                              <p class="card-text">CNPJ <input class="input-copia" id="text" value="10.321.902/0001-83" /></p>    
+                              <button type="button" class="btn btn-outline-secondary" id="copy"><i class="fa-solid fa-copy"></i></button>
                             </div>
                           </div>
                         </div>
@@ -45,6 +47,19 @@
         </section>
      </body>
     
+     
+        <!-- Botao copia-->
+        <script type="text/javascript">
+          const textInput = document.getElementById('text');
+          console.log(textInput)
+          const copyButton = document.getElementById('copy');
+
+          copyButton.addEventListener('click', ()=> {
+            textInput.select();
+            document.execCommand('copy');
+          });
+        </script>
+
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
