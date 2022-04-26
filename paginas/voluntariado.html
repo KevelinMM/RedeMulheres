@@ -79,29 +79,30 @@
                 <h1 class="page-section-heading text-center text-uppercase text-secondary mb-0 fs-3">Inscreva-se</h1> <br>
                 <div>   
                     <p class="text-muted" style="text-align: justify;"> Você está interessado em nos ajudar sendo um voluntário na Rede? Podemos ter uma oportunidade esperando por você. Cadastre seus dados em nosso site e assim que possível entraremos em contato para maiores informações.<br/>      
-                    </p>         
+                    </p> 
+                    <p class="text-end"><span class="text-muted">Itens obrigatórios</span><span class="text-danger"><b>*</b></span></p>    
                   </div>
-                <form action="https://formsubmit.co/thiagosartorel@uniplac.net" method="POST" enctype="multipart/form-data"> <!-- email da Rede Feminina-->
+                <form action="https://formsubmit.co/emaildarede" method="POST" enctype="multipart/form-data"> <!-- email da Rede Feminina-->
                   <div class="form-group">
-                    <label for="exampleFormControlInput1">Nome Completo:</label> 
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Seu nome" name="nome" required> <br>
+                    <label for="nome"><span class="text-danger"><b>*</b></span>Nome Completo:</label> 
+                    <input type="text" class="form-control" id="nome" placeholder="Seu nome" name="nome" required> <br>
                   </div>
                   <div class="form-group">
-                      <label for="exampleFormControlInput1">Seu melhor Email:</label> 
-                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com" name="email" required> <br>
+                      <label for="email"><span class="text-danger"><b>*</b></span>Seu melhor Email:</label> 
+                      <input type="email" class="form-control" id="email" placeholder="nome@exemplo.com" name="email" required> <br>
                     </div>
                     <div class="form-group">
-                        <label for="exampleFormControlInput1">Número para contato:</label> 
-                        <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="(DDD) 99999-9999" name="numero" required> <br>
+                        <label for="numero"><span class="text-danger"><b>*</b></span>Número para contato:</label>
+                        <input type="text" name="telefone" id="numero" class="form-control" placeholder="(DD) 0000-00000" onkeypress="$(this).mask('(00) 0000-00009')" required> <br>
                       </div>
                       <div class="form-group">
-                        <label for="exampleFormControlInput1">Informe sua idade:</label> 
-                        <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Idade" name="idade" required> <br>
+                        <label for="idade"><span class="text-danger"><b>*</b></span>Informe sua idade <span class="text-muted">(Deve ser maior de 18 anos)</span>:</label> 
+                        <input type="number" class="form-control" id="idade" placeholder="Idade" name="idade" min="18" required> <br>
                       </div>
               
                     <div class="form-group">
-                      <label for="exampleFormControlSelect2">Escolha a área de sua preferência (opcional): </label>
-                      <select multiple class="form-control" id="exampleFormControlSelect2" name = "area"> 
+                      <label for="area">Escolha a área de sua preferência <span class="text-muted">(Opcional)</span>: </label>
+                      <select multiple class="form-control" id="area" name="area"> 
                         <option>Visitas mensais às pacientes;</option>
                         <option>Entregas gerais;</option>
                         <option>Trabalho de concientização (palestras e entrega de panfletos);</option>
@@ -110,17 +111,32 @@
                       </select> <br>
                     </div>
                     <div class="form-group">
-                      <label for="exampleFormControlTextarea1">Livre para comentários, ideias ou sugestões!</label> 
-                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name ="texto" placeholder="Seu comentário"></textarea>
+                      <label for="textoLivre">Livre para comentários, ideias ou sugestões! <span class="text-muted">(Opcional)</span>:</label> 
+                      <textarea class="form-control" id="textoLivre" rows="3" name ="texto" placeholder="Seu comentário"></textarea>
                     </div> <br>
                     <input type="hidden" name="_captcha" value="false">
-                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/paginas/thanks.html">
-                    <button type="submit" class="btn btn-outline-secondary">Enviar</button> 
+                    <input type="hidden" name="_next" value="https://rfccfraiburgo.com.br/paginas/thanks.html">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" required>
+                      <label class="form-check-label" for="flexCheckDefault">
+                        <span class="text-danger"><b>*</b></span>Li os meus deveres como voluntária e estou de acordo com eles.
+                      </label>
+                    </div>
+                    <br/>
+                    <button type="submit" class="btn btn-outline-secondary">Enviar</button><p>
                   </form>
                 </div>
             </section>
       
     </body>
+
+
+
+
+        
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
 
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
