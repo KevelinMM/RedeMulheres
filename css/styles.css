@@ -7833,15 +7833,22 @@ textarea.form-control-lg {
   background-color: rgba(var(--bs-info-rgb), var(--bs-bg-opacity)) !important;
 }
 
-.bg-rede {
+/*.bg-rede {
   --bs-bg-opacity: 1;
   background-color:	#e47f83;
 }
+*/
+.bg-rede {
+  --bs-bg-opacity: 1;
+  background-color:	#FFA1A1;
+}
+
 
 .bg-rede2 {
   --bs-bg-opacity: 1;
   background-color:	#5B4E5F;
 }
+
 
 .bg-warning {
   --bs-bg-opacity: 1;

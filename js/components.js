@@ -15,7 +15,7 @@ class Header extends HTMLElement {
                           <ul class="navbar-nav ms-auto">
                               <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/paginas/apresentacao.html">Apresentação</a></li>
                               <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/paginas/comoajudamos.html">Como Ajudamos</a></li>
-                              <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/paginas/depoimentos.html">Depoimentos</a></li>
+                              <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/paginas/transparencia.html">Depoimentos</a></li>
                               <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/paginas/doacao.html">Contribuições</a></li>
                               <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/paginas/voluntariado.html">Voluntariado</a></li>
                           </ul>
