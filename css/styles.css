@@ -7833,11 +7833,6 @@ textarea.form-control-lg {
   background-color: rgba(var(--bs-info-rgb), var(--bs-bg-opacity)) !important;
 }
 
-/*.bg-rede {
-  --bs-bg-opacity: 1;
-  background-color:	#e47f83;
-}
-*/
 .bg-rede {
   --bs-bg-opacity: 1;
   background-color:	#FFA1A1;
