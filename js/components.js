@@ -1,4 +1,4 @@
-class Header extends HTMLElement {
+class Header extends HTMLElement { 
     connectedCallback() {
       this.innerHTML = `
 
@@ -37,7 +37,7 @@ class Header extends HTMLElement {
                           <div class="divider-custom-line"></div>
                       </div>
                       <!-- Masthead Subheading-->
-                      <p class="masthead-subheading font-weight-light mb-0">Fraiburgo</p>
+                      <p class="masthead-subheading font-weight-light fs-2">Fraiburgo</p>
                   </div>
               </header>
 

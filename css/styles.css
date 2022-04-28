@@ -368,6 +368,7 @@ select {
 
 select {
   word-wrap: normal;
+  height:115px
 }
 select:disabled {
   opacity: 1;
@@ -11312,7 +11313,7 @@ html {
 }
 
 .page-section {
-  padding: 6rem 0;
+  padding: 3rem 0;
 }
 .page-section .page-section-heading {
   font-size: 2.25rem;
@@ -11450,8 +11451,8 @@ html {
 }
 
 .masthead {
-  padding-top: calc(6rem + 74px);
-  padding-bottom: 6rem;
+  padding-top: 100px;
+  padding-bottom: 0.2rem;
 }
 .masthead .masthead-heading {
   font-size: 1.25rem;
@@ -11466,8 +11467,8 @@ html {
 
 @media (min-width: 992px) {
   .masthead {
-    padding-top: calc(6rem + 104px);
-    padding-bottom: 6rem;
+    padding-top: calc(4rem + 80px);
+    padding-bottom: 4rem;
   }
   .masthead .masthead-heading {
     font-size: 4rem;
