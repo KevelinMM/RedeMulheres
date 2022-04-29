@@ -27,48 +27,143 @@
         type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="../css/styles.css" rel="stylesheet" />
-</head>
-<main-header></main-header>
 
-<body id="page-top">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<nav class="navbar bg-rede2 fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand fs-5" href="../"><img src="../assets/LogoNova.png" style="width:55px; height:30px" /></a>
+        <button class="navbar-toggler text-uppercase font-weight-bold bg-rede text-white rounded" type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
+            aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                        href="/paginas/apresentacao.html">Apresentação</a></li>
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                        href="/paginas/comoajudamos.html">Como Ajudamos</a></li>
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                        href="/paginas/transparencia.html">Transparência</a></li>
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                        href="/paginas/doacao.html">Contribuições</a></li>
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                        href="/paginas/voluntariado.html">Voluntariado</a></li>
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                        href="/paginas/informese.html">Informe-se</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<body id="page-top" style="background-color: #d7adeb; width: 100%;">
+    <a href="#home" class="up-scroll"><span class="sr-only">Voltar ao topo</span><i class="fas fa-arrow-up"></i></a>
+    <div >
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"
+            style="width:70%; top: 90px; margin-left: auto; margin-right: auto;">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                    aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
+                    aria-label="Slide 7"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../assets//img/informe-se/1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../assets//img/informe-se/2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../assets//img/informe-se/3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../assets//img/informe-se/4.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../assets//img/informe-se/5.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../assets//img/informe-se/6.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../assets//img/informe-se/7.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <br><br><br><br>
     <section class="page-section portfolio bg-light" id="portfolio">
         <div class="container">
             <h1 class="page-section-heading text-center text-uppercase text-secondary mb-0 fs-2">Informe-se</h1> <br>
 
             <div class="row" style="margin-left: auto; margin-right: auto;">
-                <div class="col-sm-4" style="padding-bottom: 15px;">
-                    <div class="card" style="min-width: 100px; min-height: 250px; max-width: 300px;">
-                        <img class="card-img-top" src="../assets/img/informe-se/oqueeh-cancer.jpg"
-                            style="max-height: 165px;" alt="Imagem de capa do card" class="rounded-circle">
-                        <div class="card-body">
-                            <p class="card-text">O que é, como surge e tipos de cancêr.</p>
+
+
+                <div class="col-sm-4"
+                    style="padding-bottom: 15px; max-width: 350px; margin-left: auto; margin-right: auto;">
+                    <a href="#oqueeh" style="text-decoration: none;">
+                        <div class="card" style="min-width: 100px; min-height: 250px;">
+                            <img class="card-img-top" src="../assets/img/informe-se/oqueeh-cancer.jpg"
+                                style="max-height: 200px;" alt="Imagem de capa do card" class="rounded-circle">
+                            <div class="card-body">
+                                <p class="card-text">O que é, como surge e tipos de cancêr.</p>
+                            </div>
                         </div>
-                    </div>
+                    </a>
+                </div>
+                <div class="col-sm-4"
+                    style="padding-bottom: 15px; max-width: 350px; margin-left: auto; margin-right: auto;">
+                    <a href="#causas" style="text-decoration: none;">
+                        <div class="card" style="min-width: 100px; min-height: 250px;">
+                            <img class="card-img-top" src="../assets/img/informe-se/seguranca-paciente-.jpg"
+                                style="max-height: 200px;" alt="Imagem de capa do card" class="rounded-circle">
+                            <div class="card-body">
+                                <p class="card-text">Causas e Prevenção.</p>
+                            </div>
+                        </div>
+                    </a>
                 </div>
 
-                <div class="col-sm-4" style="padding-bottom: 15px;">
-                    <div class="card" style="min-width: 100px; min-height: 250px; max-width: 300px;">
-                        <img class="card-img-top" src="../assets/img/informe-se/seguranca-paciente-.jpg"
-                            style="max-height: 165px;" alt="Imagem de capa do card" class="rounded-circle">
-                        <div class="card-body">
-                            <p class="card-text">Causas e Prevenção.</p>
+                <div class="col-sm-4"
+                    style="padding-bottom: 15px; max-width: 350px; margin-left: auto; margin-right: auto;">
+                    <a href="#tratamento" style="text-decoration: none;">
+                        <div class="card" style="min-width: 100px; min-height: 250px;">
+                            <img class="card-img-top" src="../assets/img/informe-se/tratamento-cancer.jpg"
+                                style="max-height: 200px;" alt="Imagem de capa do card" class="rounded-circle">
+                            <div class="card-body">
+                                <p class="card-text">Tratamento e direitos dos pacientes.</p>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-sm-4" style="padding-bottom: 15px;">
-                    <div class="card" style="min-width: 100px; min-height: 250px; max-width: 300px;">
-                        <img class="card-img-top" src="../assets/img/informe-se/tratamento-cancer.jpg"
-                            style="max-height: 165px;" alt="Imagem de capa do card" class="rounded-circle">
-                        <div class="card-body">
-                            <p class="card-text">Tratamento e direitos dos pacientes.</p>
-                        </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="page-section portfolio bg-light" id="portfolio">
+    <section class="page-section portfolio bg-roxo" id="oqueeh">
         <div class="container">
             <h2 class="page-section-heading text-secondary mb-0 fs-4">O que é cancêr?</h2>
             <P>
@@ -84,6 +179,8 @@
                 cartilagem, são chamados sarcomas.
             </P>
         </div>
+    </section>
+    <section class="page-section portfolio bg-light">
         <div class="container">
             <h2 class="page-section-heading text-secondary mb-0 fs-4">Como surge o cancêr?</h2>
             <P>
@@ -137,6 +234,8 @@
             pois possui componentes que atuam nos três estágios da carcinogênese.
             </P>
         </div>
+    </section>
+    <section class="page-section portfolio bg-roxo">
         <div class="container">
             <h2 class="page-section-heading text-secondary mb-0 fs-4">Tipos de cancêr</h2>
             <P>
@@ -147,6 +246,8 @@
             <p class="page-section-heading text-secondary mb-0 fs-6"> Saiba mais em: <a target="_blank"
                     href="https://www.inca.gov.br/tipos-de-cancer">Inca - Tipos de cancâr </a></p>
         </div>
+    </section>
+    <section class="page-section portfolio bg-light" id="causas">
         <div class="container">
             <h2 class="page-section-heading text-secondary mb-0 fs-4">Causas</h2>
             <P>
@@ -175,6 +276,8 @@
                 o porquê de o câncer ser mais frequente nessa fase da vida.
             </P>
         </div>
+    </section>
+    <section class="page-section portfolio bg-roxo">
         <div class="container">
             <h2 class="page-section-heading text-secondary mb-0 fs-4">Prevenção</h2>
             <p>
@@ -193,6 +296,8 @@
                 exposição a agentes cancerígenos no trabalho.
             </p>
         </div>
+    </section>
+    <section class="page-section portfolio bg-light" id="tratamento">
         <div class="container">
             <h2 class="page-section-heading text-secondary mb-0 fs-4">Tratamentos</h2>
             <P>
@@ -335,7 +440,10 @@
                 em geral são passageiros e controlados
                 com medicamentos simples, como analgésicos.
             </p>
-
+        </div>
+    </section>
+    <section class="page-section portfolio bg-roxo">
+        <div class="container">
             <h2 class="page-section-heading text-secondary mb-0 fs-4">Direitos sociais da pessoa com câncer</h2>
             <p>
                 Nesta publicação é possível encontrar respostas às principais dúvidas sobre os direitos sociais dos
@@ -343,9 +451,20 @@
                 do Fundo de Garantia do Tempo de Serviço (FGTS).
             </p>
 
-            <p class="page-section-heading text-secondary mb-0 fs-6"> Referencia: <a target="_blank"
-                    href="https://www.inca.gov.br/">Inca - Instituto Nacional de Câncer, Ministério da Saúde. </a></p>
+            <div>
+                <a href="https://www.inca.gov.br/sites/ufu.sti.inca.local/files//media/document/impressao_direitos_sociais_da_pessoa_com_cancer_final-2_0.pdf"
+                    style="text-decoration: none;">
+                    <img class="img-responsive"
+                        src="https://www.inca.gov.br/sites/ufu.sti.inca.local/files//media/image/direitos_sociais_thumbnail_0.jpg"
+                        style="position: static;width:100px">  Veja aqui as orientações aos pacientes
+                </a>
+            </div>
         </div>
+    </section>
+    <section class="page-section portfolio bg-light">
+        <p class="page-section-heading text-secondary mb-0 fs-6 text-center"><b> Referencia: <a target="_blank"
+                    href="https://www.inca.gov.br/">Inca - Instituto Nacional de Câncer, Ministério da Saúde. </a></p>
+        </b>
     </section>
 </body>
 
@@ -367,3 +486,41 @@
 <main-footer></main-footer>
 
 </html>
+<script>
+    $(document).ready(function () {
+        // Add smooth scrolling to all links
+        $("a").on('click', function (event) {
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+                // Prevent default anchor click behavior
+                event.preventDefault();
+                // Store hash
+                var hash = this.hash;
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 0, function () {
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                });
+            } // End if
+        });
+        //Nav BG and TopBTN function
+        (function scrollFn() {
+            if ($(document).scrollTop() >= 1) {
+                $("nave").css({ "background-color": "rgba(0,0,0,.6)" });
+                $(".up-scroll").fadeIn("slow");
+            };
+            $(document).scroll(function () {
+                if ($(this).scrollTop() >= 1) {
+                    $("nave").css({ "background-color": "rgba(0,0,0,.6)" });
+                    $(".up-scroll").fadeIn("slow");
+                } else {
+                    $("nave").css({ "background-color": "rgba(0,0,0,0)" });
+                    $(".up-scroll").fadeOut("slow");
+                };
+            });
+        })();
+    });
+</script>

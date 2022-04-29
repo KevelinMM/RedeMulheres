@@ -7839,6 +7839,11 @@ textarea.form-control-lg {
   background-color:	#ef98aa;
 }
 
+.bg-roxo {
+  --bs-bg-opacity: 1;
+  background-color:	#efe4f1;
+}
+
 
 .bg-rede2 {
   --bs-bg-opacity: 1;
@@ -11537,4 +11542,21 @@ html {
 
 .copyright {
   background-color: #2B1730;/*colorizando*/
+}
+
+.up-scroll{
+  background-color: #f2e8f4;
+  color:#000;
+  padding:6px;
+  width:40px;
+  height:40px;
+  border-radius:50%;
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  z-index:50;
+  text-align:center;
+  /*opacity:0;*/
+  display:none;
+  /*transition:opacity .4s ease-in-out;*/
 }
