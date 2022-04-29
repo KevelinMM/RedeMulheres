@@ -83,7 +83,7 @@ class Header extends HTMLElement {
           </footer>
           <!-- Copyright Section-->
           <div class="copyright py-4 text-center text-white">
-              <div class="container"><small>Creditos: Juntos Pelo Objetivo</small></div>
+              <div class="container"><small>Créditos: Juntos Pelo Objetivo</small></div>
           </div>
 
           `;
