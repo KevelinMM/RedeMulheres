@@ -1,5 +1,5 @@
 # RedeMulheres
-<span style-"color:gray">UPO - Unidos Pelo Objetivo</span>
+<span style="color:gray">UPO - Unidos Pelo Objetivo</span>
 <br/>
 Integrativa 2022 - Projeto para Rede Feminina de Combate ao Câncer 
 
