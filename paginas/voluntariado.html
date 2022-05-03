@@ -18,7 +18,7 @@
   <meta name="Kevelin Mattos e Thiago Sartorel" content="" />
   <title>Rede Feminina de Combate ao Câncer </title>
   <!-- Favicon-->
-  <link rel="icon" type="image/png" href="../assets/LogoRosa.png" />
+  <link rel="icon" type="image/png" href="../assets/LogoRosa.ico" />
   <!-- Font Awesome icons (free version)-->
   <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
   <!-- Google fonts-->
@@ -27,14 +27,20 @@
     type="text/css" />
   <!-- Core theme CSS (includes Bootstrap)-->
   <link href="../css/styles.css" rel="stylesheet" />
+
+  <!-- Para fazer a flecha no canto inferior-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
 </head>
-<main-header></main-header>
+
+<main-header id="home"></main-header>
 
 <body id="page-top">
+  <a href="#home" class="up-scroll"><span class="sr-only">Voltar ao topo</span><i class="fas fa-arrow-up"></i></a>
   <div class="bg-light">
     <br>
     <!-- Deveres da voluntária -->
-    <div class="container"> <br>
+    <div class="container" > <br>
       <h3 class="page-section-heading text-center text-uppercase text-secondary mb-0 fs-2">Deveres como voluntária</h3>
       <br>
       <p class="text-muted" style="text-align: justify;">
@@ -158,7 +164,7 @@
   </section>
 </body>
 
-
+<!-- Para fazer a flecha no canto inferior-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
 
@@ -174,4 +180,43 @@
 <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 <main-footer></main-footer>
 
+
 </html>
+<script>
+    $(document).ready(function () {
+        // Add smooth scrolling to all links
+        $("a").on('click', function (event) {
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+                // Prevent default anchor click behavior
+                event.preventDefault();
+                // Store hash
+                var hash = this.hash;
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 0, function () {
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                });
+            } // End if
+        });
+        //Nav BG and TopBTN function
+        (function scrollFn() {
+            if ($(document).scrollTop() >= 1) {
+                $("nave").css({ "background-color": "rgba(0,0,0,.6)" });
+                $(".up-scroll").fadeIn("slow");
+            };
+            $(document).scroll(function () {
+                if ($(this).scrollTop() >= 1) {
+                    $("nave").css({ "background-color": "rgba(0,0,0,.6)" });
+                    $(".up-scroll").fadeIn("slow");
+                } else {
+                    $("nave").css({ "background-color": "rgba(0,0,0,0)" });
+                    $(".up-scroll").fadeOut("slow");
+                };
+            });
+        })();
+    });
+</script>
