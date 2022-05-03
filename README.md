@@ -9,7 +9,7 @@ Integrativa 2022 - Projeto para Rede Feminina de Combate ao Câncer
 
 ## Paginas:
 
-- [ ] Index;
+- [x] Index;
 - [x] Apresentação;
 - [ ] Como Ajudamos;
 - [ ] Transparência;
