@@ -12,7 +12,7 @@ class Header extends HTMLElement {
                           <i class="fas fa-bars"></i>
                       </button>
                       <div class="collapse navbar-collapse" id="navbarResponsive">
-                          <ul class="navbar-nav ms-auto">
+                          <ul class="navbar-nav ms-auto"><br>
                               <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/index.html">Home</a></li>
                               <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/paginas/apresentacao.html">Apresentação</a></li>
                               <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/paginas/comoajudamos.html">Como Ajudamos</a></li>
@@ -31,15 +31,11 @@ class Header extends HTMLElement {
                       <!-- Masthead Avatar Image-->
                       <img class="masthead-avatar mb-5" src="../assets/LogoNova.png" alt="Logo Rede Feminina de Combate ao Câncer de Fraiburgo " />
                       <!-- Masthead Heading-->
-                      <h1 class="masthead-heading fs-2 text-uppercase  mb-0">Rede Feminina de Combate ao Câncer</h1>
+                      <h1 class="masthead-heading fs-3 text-uppercase  mb-0">Rede Feminina de Combate ao Câncer Fraiburgo</h1>
                       <!-- Icon Divider-->
-                      <div class="divider-custom divider-light">
-                          <div class="divider-custom-line"></div>
-                          <div class="divider-custom-icon"><i class="fa-solid fa-heart"></i></div>
-                          <div class="divider-custom-line"></div>
-                      </div>
-                      <!-- Masthead Subheading-->
-                      <p class="masthead-subheading font-weight-light fs-2">Fraiburgo</p>
+                      <span class= "frase">"A doação que não espera por uma retribuição é um verdadeiro ato de amor!"</span>
+                   
+                      
                   </div>
               </header>
 

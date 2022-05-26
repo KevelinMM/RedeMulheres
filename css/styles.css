@@ -3030,7 +3030,7 @@ textarea.form-control-lg {
 }
 .btn-check:focus + .btn, .btn:focus {
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(26, 188, 156, 0.25);
+  box-shadow: 0 0 0 0.25rem #efe4f1;
 }
 .btn:disabled, .btn.disabled, fieldset:disabled .btn {
   pointer-events: none;
@@ -3479,11 +3479,10 @@ textarea.form-control-lg {
 
 .btn-link {
   font-weight: 400;
-  color: #1abc9c;
-  text-decoration: underline;
+  color: 	#816286;
 }
 .btn-link:hover {
-  color: #15967d;
+  color: #000000;
 }
 .btn-link:disabled, .btn-link.disabled {
   color: #6c757d;
@@ -4553,6 +4552,7 @@ textarea.form-control-lg {
 .card-body {
   flex: 1 1 auto;
   padding: 1rem 1rem;
+  background-color:	#ffffff;
 }
 
 .card-title {
@@ -11378,6 +11378,18 @@ html {
   align-items: center;
 }
 
+.imagemsolidariedade {
+  border-radius: 15px;
+  display: inline-flex;
+  width: 700px;
+  height: 300px;
+}
+
+.imagem{
+  padding-left: auto;
+  padding-right: auto;
+}
+
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -11389,6 +11401,7 @@ html {
 }
 #mainNav .navbar-nav {
   margin-top: 1rem;
+  text-align: end;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link {
   color: #fff;
@@ -11542,6 +11555,10 @@ html {
 
 .copyright {
   background-color: #2B1730;/*colorizando*/
+}
+
+.frase {
+  font-size: 20px;
 }
 
 .up-scroll{

@@ -3,7 +3,7 @@
 
 <head>
     <meta property="og:title" content="Rede Feminina de Combate ao Câncer Fraiburgo" />
-    <meta property="og:description" content="Vida e Vitória sobre a doença!"/>
+    <meta property="og:description" content="Vida e Vitória sobre a doença!" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://rfccfraiburgo.com.br" />
     <meta property="og:image" content="/assets/rede.png" />
@@ -21,6 +21,15 @@
     <link rel="icon" type="image/png" href="../assets/LogoRosa.ico" />
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
     <!-- Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
@@ -28,69 +37,150 @@
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="../css/styles.css" rel="stylesheet" />
 
+
     <!-- Para fazer a flecha no canto inferior-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 </head>
 <main-header id="home"></main-header>
-
 <section class="page-section portfolio bg-light" id="portfolio">
     <div style="text-align: justify" class="container">
-        <h1 class="page-section-heading text-center text-uppercase text-secondary mb-0 fs-2">Como ajudamos</h1>
+        <h1 class="page-section-heading text-center text-uppercase text-secondary mb-0 fs-2">Como ajudamos</h1><br>
+        <p>&emsp;A solidariedade é um combustível para mudar o mundo! Já pensou que a sua ajuda pode
+            transformar a vida de outras pessoas? Aqui na Rede Feminina de Combate ao Câncer, a doação
+            do seu tempo e dedicação pode salvar vidas. Seja através do voluntariado, parceria ou
+            doação, sua ajuda faz a diferença!</p>
         <br>
-        <h1 class="page-section-heading text-uppercase text-secondary text-center mb-0 fs-6 bg-roxo">Visitas às
-            pacientes</h1>
+        <img class="accordion" id="accordionExample">
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                        aria-expanded="true" aria-controls="collapseOne">
+                        Visitas às pacientes
+                    </button>
+                </h5>
+            </div>
 
-        <p> &emsp;
-            <br>
-            &emsp;
-            <br>
-        <h1 class="page-section-heading text-uppercase text-secondary text-center mb-0 fs-6 bg-roxo">Entregas de
-            Mantimentos</h1>
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body bg-roxo">
+                    <p>As visitas para as pacientes oncológicas que são cadastradas na Rede
+                        Feminina acontecem uma vez ao mês, as voluntárias vão até a casa da paciente acometida
+                        pelo câncer para averiguar as necessidades e levando o seu abraço e carinho.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Entregas de Mantimentos
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body bg-roxo">
 
-        <p> &emsp;
-            <br>
-            &emsp;
-            <br>
-
-        <h1 class="page-section-heading text-uppercase text-secondary text-center mb-0 fs-6 bg-roxo">Emprestimos de
-            acessórios</h1>
-
-        <p> &emsp;
-            <br>
-            &emsp;
-            <br>
-
-        <h1 class="page-section-heading text-uppercase text-secondary text-center mb-0 fs-6 bg-roxo">Doação de perucas
-        </h1>
-
-        <p> &emsp;
-            <br>
-            &emsp;
-            <br>
-
-        <h1 class="page-section-heading text-uppercase text-secondary text-center mb-0 fs-6 bg-roxo">Parceria com a
-            Secretaria da Saúde</h1>
-        &emsp;
-        <br>
-        &emsp;
-        <br><br>
-
-        <h1 class="page-section-heading text-uppercase text-secondary text-center mb-0 fs-6 bg-roxo">Palestras e
-            panfletagem de prevenção</h1>
-        &emsp;
-        <br>
-        &emsp;
-        <br><br>
-
-        <h1 class="page-section-heading text-uppercase text-secondary text-center mb-0 fs-6 bg-roxo">Brechós e pedágios
-        </h1>
-        &emsp;
-        <br>
-
-        </p>
+                    <p>As entregas de mantimentos também são feitas pela Rede
+                        Feminina, onde verificamos as necessidades das pacientes oncológicas e fazemos as doações
+                        de cestas básicas, leites, água de coco, suplementos alimentares, fraldas, produtos de higiene.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Emprestimos de acessórios
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body bg-roxo">
+                    <p>A nossa casa disponibiliza para empréstimos cadeiras de
+                        rodas, cadeiras de banho, andadores e colchões. </p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingFour">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Doação de perucas
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                <div class="card-body bg-roxo">
+                    <p>As doações de perucas são emprestadas as pacientes que estão em
+                        tratamento de quimioterapia e radioterapia, a qual tem como consequência a perda de cabelo.
+                        As perucas são confeccionadas por uma voluntária que utiliza os cabelos que recebemos de
+                        doações. Assim conseguimos recuperas a autoestima das mulheres acometidas pelo câncer.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingFive">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        Parceria com a Secretaria da Saúde
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                <div class="card-body bg-roxo">
+                    <p>Parceria com a secretaria, através de
+                        profissionais (médicos e enfermeiros) fazendo palestras e levando orientações sobre o câncer.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingSix">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                        Palestras e panfletagem de prevenção
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                <div class="card-body bg-roxo">
+                    <p>O objetivo principal da Rede é levar
+                        informação sobre a prevenção do câncer. Isso acontece diariamente através de panfletagens e
+                        palestras, nas empresas, no comércio, nas escolas.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingSeven">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                        Brechós e pedágios
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+                <div class="card-body bg-roxo">
+                    <p> O brechó acontece na Rede Feminina com as doações da comunidade
+                        (de roupas, calçados, acessórios, etc.)
+                        O pedágio é realizado uma vez ao ano.</p>
+                </div>
+            </div>     
+        </div><br>
+        <div class="container">
+            <img class="img-fluid" style="width: 100%; height: 50%;" src="../assets/ajudaaoproximo.jpg" alt=" Imagem de solidariedade "></img>
+            <br><br>
+        </div>
     </div>
 </section>
+
 
 
 
