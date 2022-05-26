@@ -3,7 +3,7 @@
 
 <head>
   <meta property="og:title" content="Rede Feminina de Combate ao Câncer Fraiburgo" />
-  <meta property="og:description" content="Vida e Vitória sobre a doença!"/>
+  <meta property="og:description" content="Vida e Vitória sobre a doença!" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://rfccfraiburgo.com.br" />
   <meta property="og:image" content="/assets/rede.png" />
@@ -21,6 +21,15 @@
   <link rel="icon" type="image/png" href="../assets/LogoRosa.ico" />
   <!-- Font Awesome icons (free version)-->
   <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
   <!-- Google fonts-->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
@@ -40,7 +49,7 @@
   <div class="bg-light">
     <br>
     <!-- Deveres da voluntária -->
-    <div class="container" > <br>
+    <div class="container"> <br>
       <h3 class="page-section-heading text-center text-uppercase text-secondary mb-0 fs-2">Deveres como voluntária</h3>
       <br>
       <p class="text-muted" style="text-align: justify;">
@@ -159,7 +168,8 @@
         <div class="form-check">
           <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" required>
           <label class="form-check-label" for="flexCheckDefault">
-            <span class="text-danger"><b>*</b><a href="www.google.com"></span>Aceito os termos de uso.</a>
+            <span class="text-danger"><b>*</b><a href="" data-toggle="modal"
+                data-target="#ExemploModalCentralizado"></span>Aceito os termos de uso.</a>
           </label>
         </div>
         <br />
@@ -168,6 +178,35 @@
       </form>
     </div>
   </section>
+  <!-- Modal -->
+  <div class="modal fade" id="ExemploModalCentralizado" tabindex="-1" role="dialog"
+    aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="TituloModalCentralizado">Termos de uso</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body" style="text-align:justify;">
+          Ao preencher o formulário de voluntariado o usuário deverá informar dados completos, recentes e válidos, bem como o usuário se compromete com a veracidade dos dados fornecidos.
+          <br><br>
+          O preenchimento do formulário só é permitido a maiores de 18 anos de idade ou que possuírem capacidade civil plena. 
+          <br><br>
+          Mediante a realização do cadastro o usuário declara e garante expressamente ser plenamente capaz, podendo exercer e usufruir livremente dos serviços e produtos.
+          <br><br>
+          O usuário deverá fornecer um endereço de e-mail válido, através do qual o site realizará todas as comunicações necessárias.
+          <br><br>
+          O usuário, ao aceitar os Termos e Política de Privacidade, autoriza expressamente a plataforma a coletar, usar, armazenar, tratar, ceder ou utilizar as informações derivadas do uso dos serviços, do site e quaisquer plataformas, incluindo todas as informações preenchidas pelo usuário no momento em que realizar ou atualizar seu cadastro, além de outras expressamente descritas na Política de Privacidade que deverá ser autorização pelo usuário.
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 
 <!-- Para fazer a flecha no canto inferior-->
@@ -189,40 +228,40 @@
 
 </html>
 <script>
-    $(document).ready(function () {
-        // Add smooth scrolling to all links
-        $("a").on('click', function (event) {
-            // Make sure this.hash has a value before overriding default behavior
-            if (this.hash !== "") {
-                // Prevent default anchor click behavior
-                event.preventDefault();
-                // Store hash
-                var hash = this.hash;
-                // Using jQuery's animate() method to add smooth page scroll
-                // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-                $('html, body').animate({
-                    scrollTop: $(hash).offset().top
-                }, 0, function () {
-                    // Add hash (#) to URL when done scrolling (default click behavior)
-                    window.location.hash = hash;
-                });
-            } // End if
+  $(document).ready(function () {
+    // Add smooth scrolling to all links
+    $("a").on('click', function (event) {
+      // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+        // Store hash
+        var hash = this.hash;
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 0, function () {
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;
         });
-        //Nav BG and TopBTN function
-        (function scrollFn() {
-            if ($(document).scrollTop() >= 1) {
-                $("nave").css({ "background-color": "rgba(0,0,0,.6)" });
-                $(".up-scroll").fadeIn("slow");
-            };
-            $(document).scroll(function () {
-                if ($(this).scrollTop() >= 1) {
-                    $("nave").css({ "background-color": "rgba(0,0,0,.6)" });
-                    $(".up-scroll").fadeIn("slow");
-                } else {
-                    $("nave").css({ "background-color": "rgba(0,0,0,0)" });
-                    $(".up-scroll").fadeOut("slow");
-                };
-            });
-        })();
+      } // End if
     });
+    //Nav BG and TopBTN function
+    (function scrollFn() {
+      if ($(document).scrollTop() >= 1) {
+        $("nave").css({ "background-color": "rgba(0,0,0,.6)" });
+        $(".up-scroll").fadeIn("slow");
+      };
+      $(document).scroll(function () {
+        if ($(this).scrollTop() >= 1) {
+          $("nave").css({ "background-color": "rgba(0,0,0,.6)" });
+          $(".up-scroll").fadeIn("slow");
+        } else {
+          $("nave").css({ "background-color": "rgba(0,0,0,0)" });
+          $(".up-scroll").fadeOut("slow");
+        };
+      });
+    })();
+  });
 </script>
