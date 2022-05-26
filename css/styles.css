@@ -3480,6 +3480,7 @@ textarea.form-control-lg {
 .btn-link {
   font-weight: 400;
   color: 	#816286;
+  width: 100%;
 }
 .btn-link:hover {
   color: #000000;
@@ -4525,6 +4526,7 @@ textarea.form-control-lg {
   background-clip: border-box;
   border: 0.125rem solid rgba(0, 0, 0, 0.125);
   border-radius: 0.5rem;
+  margin-bottom: 15px;
 }
 .card > hr {
   margin-right: 0;
@@ -11559,6 +11561,13 @@ html {
 
 .frase {
   font-size: 20px;
+}
+
+.seta {
+  position: absolute;
+  padding-top: 5px;
+  width: 50px;
+  right: 0;
 }
 
 .up-scroll{

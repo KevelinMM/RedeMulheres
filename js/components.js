@@ -31,7 +31,7 @@ class Header extends HTMLElement {
                       <!-- Masthead Avatar Image-->
                       <img class="masthead-avatar mb-5" src="../assets/LogoNova.png" alt="Logo Rede Feminina de Combate ao Câncer de Fraiburgo " />
                       <!-- Masthead Heading-->
-                      <h1 class="masthead-heading fs-3 text-uppercase  mb-0">Rede Feminina de Combate ao Câncer Fraiburgo</h1>
+                      <h1 class="masthead-heading fs-3 text-uppercase  mb-0">Rede Feminina de Combate ao Câncer - Fraiburgo</h1>
                       <!-- Icon Divider-->
                       <span class= "frase">"A doação que não espera por uma retribuição é um verdadeiro ato de amor!"</span>
                    
