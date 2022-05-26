@@ -34,6 +34,7 @@ class Header extends HTMLElement {
                       <h1 class="masthead-heading fs-3 text-uppercase  mb-0">Rede Feminina de Combate ao Câncer - Fraiburgo</h1>
                       <!-- Icon Divider-->
                       <span class= "frase">"A doação que não espera por uma retribuição é um verdadeiro ato de amor!"</span>
+                      <br/>
                    
                       
                   </div>
