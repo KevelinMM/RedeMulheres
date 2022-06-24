@@ -2675,6 +2675,13 @@ textarea.form-control-lg {
   height: 5.5rem;
   line-height: 1.25;
 }
+
+.Mapa{
+  left:0;
+  width: 100%;
+  height: 100%;
+}
+
 .form-floating > label {
   position: absolute;
   top: 0;
@@ -11585,4 +11592,13 @@ html {
   /*opacity:0;*/
   display:none;
   /*transition:opacity .4s ease-in-out;*/
+}
+
+@media (max-width: 948px){
+  .Mapa{
+    height: 150px;
+  }
+  .card-mapa{
+    height: 410px;
+  }
 }

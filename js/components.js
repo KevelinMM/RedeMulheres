@@ -67,7 +67,7 @@ class Header extends HTMLElement {
                           <h4 class="text-uppercase mb-4">Redes Sociais</h4>
                           <a class="btn btn-outline-light btn-social mx-1" target="_blank" href="https://www.facebook.com/rfccfraiburgo"><i class="fab fa-fw fa-facebook-f"></i></a>
                           <a class="btn btn-outline-light btn-social mx-1" target="_blank" href="https://www.instagram.com/redefemininafraiburgo/"><i class="fa-brands fa-instagram"></i></i></a>
-                          <a class="btn btn-outline-light btn-social mx-1" target="_blank" href="#!"><i class="fa-brands fa-whatsapp"></i></i></a>
+                          <a class="btn btn-outline-light btn-social mx-1" target="_blank" href="https://wa.me/554999550344"><i class="fa-brands fa-whatsapp"></i></i></a>
                       </div>
                       <!-- Footer About Text-->
                       <div class="col-lg-4">
